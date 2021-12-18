@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56159ec7-0b4e-442a-8474-0f5ae7651a47" name="Changes" comment="DZ_3" />
+    <list default="true" id="56159ec7-0b4e-442a-8474-0f5ae7651a47" name="Changes" comment="DZ_4">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/imgur/ImgurApiFunctionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/imgur/ImgurApiFunctionalTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="DZ_3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,22 +83,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ImgurApiFunctionalTest">
-    <configuration name="HelloTest.testWithResource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="backend-test-dec-2021" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.geekbrains.backend.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test" />
-      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.HelloTest" />
-      <option name="METHOD_NAME" value="testWithResource" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ImgurApiFunctionalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend-test-dec-2021" />
       <extension name="coverage">
@@ -159,13 +146,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ImgurApiFunctionalTest.testShareWithCommunity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-test-dec-2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.backend.test.imgur.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.imgur" />
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest" />
+      <option name="METHOD_NAME" value="testShareWithCommunity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ImgurApiFunctionalTest" />
-        <item itemvalue="JUnit.ImgurApiFunctionalTest.getAccountBase" />
-        <item itemvalue="JUnit.ImgurApiFunctionalTest.postImageTest" />
         <item itemvalue="JUnit.ImgurApiFunctionalTest.testCreateComment" />
-        <item itemvalue="JUnit.HelloTest.testWithResource" />
+        <item itemvalue="JUnit.ImgurApiFunctionalTest.testShareWithCommunity" />
+        <item itemvalue="JUnit.ImgurApiFunctionalTest.postImageTest" />
+        <item itemvalue="JUnit.ImgurApiFunctionalTest.getAccountBase" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639598856677</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="DZ_3">
+      <created>1639599012044</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1639599012044</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

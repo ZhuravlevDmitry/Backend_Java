@@ -1,5 +1,9 @@
 package com.geekbrains.backend.test.imgur;
 
+import io.restassured.builder.ResponseSpecBuilder;
+import io.restassured.http.ContentType;
+import io.restassured.specification.ResponseSpecification;
+import org.hamcrest.Matchers;
 import org.junit.jupiter.api.*;
 
 import static io.restassured.RestAssured.given;
@@ -12,20 +16,32 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
 
     private static String CURRENT_IMAGE_ID;
 
+
     @DisplayName("Endpoint № 1 Get information about an image.")
     @Test
-    @Order(1) //авторизовались,
-        // конфигурим запрос - записываем лог
-        // выполняем проверку в боди (значение ключ),
-        // конфигурим ответ записываем лог,
+    @Order(1)
     void getAccountBase() {
-        String userName = "mityidizel";
+       // String userName = "mityidizel";
+        ResponseSpecification test_1 = new ResponseSpecBuilder()
+                .expectStatusCode(200)
+                .expectStatusLine("HTTP/1.1 200 OK")
+                .expectContentType(ContentType.JSON)
+                .expectResponseTime(Matchers.lessThan(5000L))
+                .expectHeader("Access-Control-Allow-Credentials", "true")
+                .expectBody("data.id", is("l38bOK3"))
+                .expectBody("data.size", is(288535))
+                .expectBody("data.type", is("image/jpeg"))
+                .expectBody("data.name", is("White Mollienesia!"))
+                .expectBody("data.title", is("Aquarium"))
+                .expectBody("success", is(true))
+                .expectBody("status", is(200))
+                .build();
         given()
                 .spec(requestSpecification)
                 .log()
                 .all()
                 .expect()
-                .body("data.id", is("l38bOK3"))   // проверка
+                .spec(test_1)
                 .log()
                 .all()
                 .when()
@@ -36,6 +52,18 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
     @Test
     @Order(2)
     void postImageTest() {
+        ResponseSpecification test_2 = new ResponseSpecBuilder()
+                .expectStatusCode(200)
+                .expectStatusLine("HTTP/1.1 200 OK")
+                .expectContentType(ContentType.JSON)
+                .expectResponseTime(Matchers.lessThan(5000L))
+                .expectBody("data.size", is(273521))
+                .expectBody("data.type", is("image/jpeg"))
+                .expectBody("data.name", is("Gallery"))
+                .expectBody("data.title", is("The best Gallery!"))
+                .expectBody("status", is(200))
+                .expectBody("success", is(true))
+                .build();
         CURRENT_IMAGE_ID = given()
                 .spec(requestSpecification) // далее добавляем параметры запроса
                 .multiPart("image", getFileResource("gallery.jpg"))
@@ -44,10 +72,7 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
                 .log()
                 .all()
                 .expect()
-                .body("data.size", is(273521)) // проверки через матчеры - тестирующее на совпадение с условием
-                .body("data.type", is("image/jpeg"))
-                .body("data.name", is("Gallery"))
-                .body("data.title", is("The best Gallery!"))
+                .spec(test_2)
                 .log()
                 .all()
                 .when()
@@ -75,8 +100,14 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
 
     @DisplayName("Endpoint № 4 Creates a new comment, returns the ID of the comment.")
     @Test
-    @Order(4) //"DL8vpDH"
+    @Order(4)
     void testCreateComment() {
+        ResponseSpecification test_4 = new ResponseSpecBuilder()
+                .expectContentType(ContentType.JSON)
+                .expectResponseTime(Matchers.lessThan(5000L))
+                .expectBody("status", is(200))
+                .expectBody("success", is(true))
+                .build();
         given()
                 .spec(requestSpecification)
                 .formParam("image_id", CURRENT_IMAGE_ID)
@@ -84,8 +115,7 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
                 .log()
                 .all()
                 .expect()
-                .body("success", is(true))
-                .body("status", is(200))
+                .spec(test_4)
                 .log()
                 .all()
                 .when()
@@ -96,6 +126,13 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
     @Test
     @Order(3)
     void testShareWithCommunity() {
+        ResponseSpecification test_3 = new ResponseSpecBuilder()
+                .expectContentType(ContentType.JSON)
+                .expectResponseTime(Matchers.lessThan(2000L))
+                .expectBody("status", is(200))
+                .expectBody("data", is(true))
+                .expectBody("success", is(true))
+                .build();
         given()
                 .spec(requestSpecification)
                 .formParam("title", "Get this gallery to the front page")
@@ -105,8 +142,7 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
                 .log()
                 .all()
                 .expect()
-                .body("success", is(true))
-                .body("status", is(200))
+                .spec(test_3)
                 .log()
                 .all()
                 .when()
