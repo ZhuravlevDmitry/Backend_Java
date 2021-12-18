@@ -98,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImgurApiFunctionalTest.getAccountBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ImgurApiFunctionalTest.deleteImageById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend-test-dec-2021" />
       <extension name="coverage">
         <pattern>
@@ -108,7 +108,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.imgur" />
       <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest" />
-      <option name="METHOD_NAME" value="getAccountBase" />
+      <option name="METHOD_NAME" value="deleteImageById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,10 +165,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ImgurApiFunctionalTest" />
+        <item itemvalue="JUnit.ImgurApiFunctionalTest.deleteImageById" />
         <item itemvalue="JUnit.ImgurApiFunctionalTest.testCreateComment" />
         <item itemvalue="JUnit.ImgurApiFunctionalTest.testShareWithCommunity" />
         <item itemvalue="JUnit.ImgurApiFunctionalTest.postImageTest" />
-        <item itemvalue="JUnit.ImgurApiFunctionalTest.getAccountBase" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639599012044</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="DZ_4">
+      <created>1639840413098</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1639840413098</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +251,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson 3. Rest Assured&#10;Тестирование внешнего сервиса при помощи Rest Assured" />
     <MESSAGE value="DZ_3" />
-    <option name="LAST_COMMIT_MESSAGE" value="DZ_3" />
+    <MESSAGE value="DZ_4" />
+    <option name="LAST_COMMIT_MESSAGE" value="DZ_4" />
   </component>
 </project>

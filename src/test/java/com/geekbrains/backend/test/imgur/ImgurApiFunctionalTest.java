@@ -86,11 +86,18 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
     @Test
     @Order(5)
     void deleteImageById() {
+        ResponseSpecification test_5 = new ResponseSpecBuilder()
+                .expectContentType(ContentType.JSON)
+                .expectResponseTime(Matchers.lessThan(5000L))
+                .expectBody("status", is(200))
+                .expectBody("success", is(true))
+                .build();
         given()
                 .spec(requestSpecification)
                 .log()
                 .all()
                 .expect()
+                .spec(test_5)
                 .body("status", is(200))
                 .log()
                 .all()
