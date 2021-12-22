@@ -92,13 +92,13 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
                 .expectBody("status", is(200))
                 .expectBody("success", is(true))
                 .build();
+
         given()
                 .spec(requestSpecification)
                 .log()
                 .all()
                 .expect()
                 .spec(test_5)
-                .body("status", is(200))
                 .log()
                 .all()
                 .when()
