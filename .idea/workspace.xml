@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56159ec7-0b4e-442a-8474-0f5ae7651a47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/imgur/ImgurApiAbstractTest.java" afterDir="false" />
+    <list default="true" id="56159ec7-0b4e-442a-8474-0f5ae7651a47" name="Changes" comment="DZ_5">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/imgur/ImgurApiFunctionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/imgur/ImgurApiFunctionalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/com/geekbrains/backend/test/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/com/geekbrains/backend/test/test.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +20,26 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="DZ_4" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -43,19 +53,24 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/com/geekbrains/backend/test/ImgurApiFunctionalTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/com/geekbrains/backend/test/imgur/ImgurApiFunctionalTest" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.3745283" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\TestBackendOnJava\backend_test\src\test\resources\com\geekbrains\backend\test\imgur\ImgurApiFunctionalTest" />
       <recent name="$PROJECT_DIR$/src/test/resources/com/geekbrains/backend/test/ImgurApiFunctionalTest" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -68,8 +83,9 @@
       <recent name="com.geekbrains.backend.test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ImgurApiFunctionalTest">
-    <configuration name="HelloTest.testWithResource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.miniMarketApiTest.testCreateProduct">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.Test" />
       <module name="backend-test-dec-2021" />
       <extension name="coverage">
         <pattern>
@@ -77,72 +93,68 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test" />
-      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.HelloTest" />
-      <option name="METHOD_NAME" value="testWithResource" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImgurApiFunctionalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="miniMarketApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend-test-dec-2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.geekbrains.backend.test.imgur.*" />
+          <option name="PATTERN" value="com.geekbrains.backend.test.miniMarket.MiniMarketApiTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.imgur" />
-      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest" />
+      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.miniMarket" />
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.miniMarket.miniMarketApiTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImgurApiFunctionalTest.getAccountBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="miniMarketApiTest.testCreateProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend-test-dec-2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.geekbrains.backend.test.imgur.*" />
+          <option name="PATTERN" value="com.geekbrains.backend.test.miniMarket.MiniMarketApiTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.imgur" />
-      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest" />
-      <option name="METHOD_NAME" value="getAccountBase" />
+      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.miniMarket" />
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.miniMarket.miniMarketApiTest" />
+      <option name="METHOD_NAME" value="testCreateProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImgurApiFunctionalTest.postImageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="miniMarketApiTest.testGetCategoryById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend-test-dec-2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.geekbrains.backend.test.imgur.*" />
+          <option name="PATTERN" value="com.geekbrains.backend.test.miniMarket.MiniMarketApiTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.imgur" />
-      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest" />
-      <option name="METHOD_NAME" value="postImageTest" />
+      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.miniMarket" />
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.miniMarket.miniMarketApiTest" />
+      <option name="METHOD_NAME" value="testGetCategoryById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImgurApiFunctionalTest.testCreateComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="miniMarketApiTest.testGetCategoryByNonExistentId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend-test-dec-2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.geekbrains.backend.test.imgur.*" />
+          <option name="PATTERN" value="com.geekbrains.backend.test.miniMarket.MiniMarketApiTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.imgur" />
-      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest" />
-      <option name="METHOD_NAME" value="testCreateComment" />
+      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.miniMarket" />
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.miniMarket.miniMarketApiTest" />
+      <option name="METHOD_NAME" value="testGetCategoryByNonExistentId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ImgurApiFunctionalTest" />
-        <item itemvalue="JUnit.ImgurApiFunctionalTest.getAccountBase" />
-        <item itemvalue="JUnit.ImgurApiFunctionalTest.postImageTest" />
-        <item itemvalue="JUnit.ImgurApiFunctionalTest.testCreateComment" />
-        <item itemvalue="JUnit.HelloTest.testWithResource" />
+        <item itemvalue="JUnit.miniMarketApiTest.testCreateProduct" />
+        <item itemvalue="JUnit.miniMarketApiTest.testGetCategoryByNonExistentId" />
+        <item itemvalue="JUnit.miniMarketApiTest" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.miniMarketApiTest.testGetCategoryById" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +191,70 @@
       <option name="project" value="LOCAL" />
       <updated>1638990916597</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DZ_3">
+      <created>1639585100853</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639585100853</updated>
+    </task>
+    <task id="LOCAL-00003" summary="DZ_3">
+      <created>1639587921942</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639587921942</updated>
+    </task>
+    <task id="LOCAL-00004" summary="DZ_3">
+      <created>1639587954534</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1639587954534</updated>
+    </task>
+    <task id="LOCAL-00005" summary="DZ_3">
+      <created>1639588583611</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1639588583611</updated>
+    </task>
+    <task id="LOCAL-00006" summary="DZ_3">
+      <created>1639598856677</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639598856677</updated>
+    </task>
+    <task id="LOCAL-00007" summary="DZ_3">
+      <created>1639599012044</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1639599012044</updated>
+    </task>
+    <task id="LOCAL-00008" summary="DZ_4">
+      <created>1639840413098</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1639840413098</updated>
+    </task>
+    <task id="LOCAL-00009" summary="DZ_4">
+      <created>1639840957528</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1639840957528</updated>
+    </task>
+    <task id="LOCAL-00010" summary="DZ_5">
+      <created>1640174883505</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1640174883505</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +262,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson 3. Rest Assured&#10;Тестирование внешнего сервиса при помощи Rest Assured" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 3. Rest Assured&#10;Тестирование внешнего сервиса при помощи Rest Assured" />
+    <MESSAGE value="DZ_3" />
+    <MESSAGE value="DZ_4" />
+    <MESSAGE value="DZ_5" />
+    <option name="LAST_COMMIT_MESSAGE" value="DZ_5" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Test_java$ImgurApiFunctionalTest.ic" NAME="ImgurApiFunctionalTest Coverage Results" MODIFIED="1640120336984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.geekbrains.backend.test.imgur.*</FILTER>
+    </SUITE>
   </component>
 </project>
