@@ -2,7 +2,6 @@ package com.geekbrains.backend.test.miniMarket;
 
 
 import java.util.List;
-import java.util.concurrent.Executor;
 
 import com.geekbrains.backend.test.miniMarket.model.Category;
 import com.geekbrains.backend.test.miniMarket.model.Product;

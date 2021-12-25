@@ -3,10 +3,37 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="56159ec7-0b4e-442a-8474-0f5ae7651a47" name="Changes" comment="DZ_5">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/miniMarket/MiniMarketApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/miniMarket/MiniMarketApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/miniMarket/MiniMarketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/miniMarket/MiniMarketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/miniMarket/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/miniMarket/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/miniMarket/model/ProductResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/miniMarket/model/ProductResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/miniMarket/miniMarketApiTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +46,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -44,6 +71,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="220p8zrffIGQALNEPOd76RaSllM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -58,7 +92,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/com/geekbrains/backend/test/imgur/ImgurApiFunctionalTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Backend_Java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -69,6 +103,10 @@
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.geekbrains.backend.test.miniMarket.model" />
+      <recent name="com.geekbrains.backend.test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\TestBackendOnJava\backend_test\src\test\resources\com\geekbrains\backend\test\imgur\ImgurApiFunctionalTest" />
       <recent name="$PROJECT_DIR$/src/test/resources/com/geekbrains/backend/test/ImgurApiFunctionalTest" />
@@ -79,11 +117,8 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/com/geekbrains/backend/test/imgur" />
     </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.geekbrains.backend.test" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.miniMarketApiTest.testCreateProduct">
+  <component name="RunManager" selected="Application.TestDb">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.Test" />
       <module name="backend-test-dec-2021" />
@@ -97,11 +132,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestDb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.db.TestDb" />
+      <module name="backend_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.backend.test.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="miniMarketApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend-test-dec-2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.geekbrains.backend.test.miniMarket.MiniMarketApiTest" />
+          <option name="PATTERN" value="com.geekbrains.backend.test.miniMarket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,7 +164,7 @@
       <module name="backend-test-dec-2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.geekbrains.backend.test.miniMarket.MiniMarketApiTest" />
+          <option name="PATTERN" value="com.geekbrains.backend.test.miniMarket.miniMarketApiTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,33 +176,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="miniMarketApiTest.testGetCategoryById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="backend-test-dec-2021" />
+    <configuration name="miniMarketApiTest.testUpdateProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.geekbrains.backend.test.miniMarket.MiniMarketApiTest" />
+          <option name="PATTERN" value="com.geekbrains.backend.test.miniMarket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.miniMarket" />
       <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.miniMarket.miniMarketApiTest" />
-      <option name="METHOD_NAME" value="testGetCategoryById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="miniMarketApiTest.testGetCategoryByNonExistentId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="backend-test-dec-2021" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.geekbrains.backend.test.miniMarket.MiniMarketApiTest" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.miniMarket" />
-      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.miniMarket.miniMarketApiTest" />
-      <option name="METHOD_NAME" value="testGetCategoryByNonExistentId" />
+      <option name="METHOD_NAME" value="testUpdateProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.miniMarketApiTest.testCreateProduct" />
-        <item itemvalue="JUnit.miniMarketApiTest.testGetCategoryByNonExistentId" />
-        <item itemvalue="JUnit.miniMarketApiTest" />
+        <item itemvalue="Application.TestDb" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit.miniMarketApiTest.testGetCategoryById" />
+        <item itemvalue="JUnit.miniMarketApiTest" />
+        <item itemvalue="JUnit.miniMarketApiTest.testUpdateProduct" />
+        <item itemvalue="JUnit.miniMarketApiTest.testCreateProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +215,8 @@
       <updated>1638984204059</updated>
       <workItem from="1638984205449" duration="7272000" />
       <workItem from="1639244305384" duration="3475000" />
+      <workItem from="1640266383032" duration="4309000" />
+      <workItem from="1640283532900" duration="30438000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 3. Rest Assured&#10;Тестирование внешнего сервиса при помощи Rest Assured">
       <created>1638990916597</created>
@@ -254,11 +288,30 @@
       <option name="project" value="LOCAL" />
       <updated>1640174883505</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="DZ_5">
+      <created>1640263575630</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1640263575630</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson 3. Rest Assured&#10;Тестирование внешнего сервиса при помощи Rest Assured" />
@@ -266,6 +319,54 @@
     <MESSAGE value="DZ_4" />
     <MESSAGE value="DZ_5" />
     <option name="LAST_COMMIT_MESSAGE" value="DZ_5" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1640293821404">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1640293821404" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1640338852900">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1640338852900" />
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1640293533933">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1640293533933" />
+    <state width="1493" height="567" key="GridCell.Tab.0.bottom" timestamp="1640441438400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="567" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1640441438400" />
+    <state width="1493" height="567" key="GridCell.Tab.0.center" timestamp="1640441438400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="567" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1640441438400" />
+    <state width="1493" height="567" key="GridCell.Tab.0.left" timestamp="1640441438400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="567" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1640441438400" />
+    <state width="1493" height="567" key="GridCell.Tab.0.right" timestamp="1640441438400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="567" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1640441438400" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1640434014637">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1640434014637" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1640292650510">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1640292650510" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassCastException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Test_java$ImgurApiFunctionalTest.ic" NAME="ImgurApiFunctionalTest Coverage Results" MODIFIED="1640120336984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
